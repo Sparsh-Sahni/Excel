@@ -1,0 +1,48 @@
+
+# ===========================================
+# DATABASE CONFIGURATION
+# ===========================================
+
+MONGO_URI= "your mongoDb link"
+
+
+# ===========================================
+# ENVIRONMENT CONFIGURATION
+# ===========================================
+NODE_ENV=development
+PORT=5000
+
+
+
+# ===========================================
+# JWT CONFIGURATION
+# ===========================================
+JWT_SECRET= "your jwt secret key"
+
+
+
+# ===========================================
+# BREVO EMAIL CONFIGURATION
+# ===========================================
+
+
+BREVO_API_KEY="Brevo api key"
+SENDER_EMAIL="Sender email"
+SENDER_NAME= "sender name"
+
+
+
+# ===========================================
+# CLIENT CONFIGURATION
+# ===========================================
+CLIENT_URL=http://localhost:5173
+
+
+
+
+# ===========================================
+# File Upload Configuration
+# ===========================================
+MAX_FILE_SIZE=10485760
+UPLOAD_DIR=uploads/
+
